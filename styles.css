@@ -1,0 +1,109 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background-color: rgba(255, 217, 84,.02);
+    line-height: 50px;
+    //width: 100%;
+    //position: fixed;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+header h1 {
+    padding-left: 7%;
+    float: left;
+}
+
+header h2 {
+    padding-right: 30px;
+    float: right;
+    line-height: 60px;
+    
+}
+
+#bio section, #work section, #experience section {
+    border: 1px solid black;
+    margin: 20px 7%;
+}
+
+#last {
+    padding-right: 7%;
+}
+
+#section1 {
+}
+
+#bio #section1 img {
+    margin-right:20px;
+    width: calc(24% - 20px);
+}
+
+p {
+    margin: 8px 0;
+    //line-height: 22px;
+    
+}
+
+#section2 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#list1, #list2 {
+    width: 49%;
+    display: inline-block;
+}
+
+li {
+    margin-bottom: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+//////////////////////////////////work page
+
+.image-section {
+    margin: 20px 0px;
+}
+
+.work-image-span {
+    width: 114%;
+    //height: 340px;
+}
+
+.work-image-span img {
+    width: 100%;
+}
+
+.work-experience #section2 {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.work-experience p {
+    letter-spacing: 1.2px;
+}
