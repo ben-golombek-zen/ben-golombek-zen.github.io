@@ -36,9 +36,18 @@ header h2 {
     
 }
 
-#bio section, #work section, #experience section {
+#bio section, #work section {
     border: 1px solid black;
     margin: 20px 7%;
+}
+
+#experience section {
+    margin: 0 7% 20px 7%;
+    padding-bottom: 30px;
+}
+
+.experience-title h3 {
+    margin-top: 20px;
 }
 
 #last {
@@ -74,7 +83,7 @@ p {
     display: inline-block;
 }
 
-li {
+#list1 li, #list2 li{
     margin-bottom: 25px;
 }
 
@@ -84,7 +93,6 @@ a {
 }
 
 
-//////////////////////////////////work page
 
 .image-section {
     margin: 20px 0px;
@@ -106,4 +114,44 @@ a {
 
 .work-experience p {
     letter-spacing: 1.2px;
+}
+
+.experience-single {
+    border-bottom: 1px solid grey;
+}
+
+.experience-title {
+    width: 20%;
+    padding-right: 10%;
+    //border: 2px solid blue;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.experience-content {
+    width: 69%;
+    //border: 2px solid green;
+    display: inline-block;
+    padding-top: 4px;
+    vertical-align: top;
+    font-family: 'Roboto', sans-serif;
+}
+
+.experience-content p {
+    padding-left: 25px;
+}
+
+.experience-content li {
+    font-size: 14px;
+    font-weight:300;
+    margin-bottom:4px;
+}
+
+.experience-title h3 {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#experience-overview {
+    border-bottom: 1px solid grey;
 }
