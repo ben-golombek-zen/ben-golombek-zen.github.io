@@ -36,7 +36,7 @@ header h2 {
     
 }
 
-#bio section, #work section {
+#bio section, {
     border: 1px solid black;
     margin: 20px 7%;
 }
@@ -92,16 +92,40 @@ a {
     text-decoration: none;
 }
 
-
-
 .image-section {
     margin: 20px 0px;
 }
 
 .work-image-span {
-    width: 114%;
-    //height: 340px;
+    height: 30vw;
+    min-height: 250px;
+    max-height: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+#work-image-1 {
+    background-image: url(https://fillmurray.com/2854/800);
+}
+
+#work-image-2 {
+    background-image: url(https://placecage.com/2854/800);
+}
+
+#work-image-3 {
+    background-image: url(https://stevensegallery.com/2854/800);
+}
+
+#work-image-4 {
+    background-image: url(https://placebear.com/2854/800);
+}
+
+#work-image-5 {
+    background-image: url(https://placecage.com/2854/800);
+}
+
+
 
 .work-image-span img {
     width: 100%;
@@ -180,4 +204,32 @@ footer h4 {
 
 .social-container img {
     //height: 100%;
+}
+
+#work .image-section {
+    margin: 40px 0;
+}
+
+.work-image-text {
+    width: 60%;
+    height: calc(100% - 100px);
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#first-text {
+    align-items: center;
+    justify-content: center;
+}
+
+.work-image-items {
+    padding-top: 100px;
+    flex-direction: column;
+}
+
+#first-text h2 {
+    text-align: center;
+    font-size: 56px
 }
