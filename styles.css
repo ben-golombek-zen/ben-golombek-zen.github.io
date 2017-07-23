@@ -155,3 +155,29 @@ a {
 #experience-overview {
     border-bottom: 1px solid grey;
 }
+
+footer {
+    padding: 20px 7%;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer h4 {
+    font-weight: 300;
+    float:left;
+    margin-top:2px;
+}
+
+#social-icons {
+    float: right;
+    width: 80px;
+    height: 50px;
+}
+
+.social-container {
+    width: 50%;
+    float: right;
+}
+
+.social-container img {
+    //height: 100%;
+}
