@@ -232,3 +232,19 @@ footer h4 {
     text-align: center;
     font-size: 56px
 }
+
+header h2 a:hover {
+    text-decoration: underline;
+}
+
+.work-image-text h2:hover , .work-image-text p:hover {
+    text-decoration: underline;
+}
+
+#first-text h2:hover {
+    text-decoration: none;
+}
+
+#experience-overview a:hover {
+    text-decoration: underline;
+}
